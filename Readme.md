@@ -28,3 +28,9 @@ Screenshot of the awk page that will take you to sourceforge https://github.com/
 4- Copy dankAlertMemGenerator.exe to C:\Windows\dankAlerts\
 
 Be sure to modify dankAlerts.ps1 if you decide to use a different path.
+
+5- Run dankAlerts.ps1 as Administrator.  This is required to read the Sysmon event logs.
+
+**Todo**
+Add more wevtutil.exe queries
+Add support WebCheck support for https://dankAlerts.local/Authorized-Programs.htm
