@@ -29,11 +29,15 @@ if (!(Test-Path "$path\AuthorizedNetworkTalkers.txt"))
    New-Item  -ItemType File -Path $path -Confirm 
 }
 
+<#
+# OPTIONAL
 # Create a desktop shortcut to the dankAlerts directory
 $WshShell = New-Object -comObject WScript.Shell
 $Shortcut = $WshShell.CreateShortcut("$env:USERPROFILE\Desktop\dankAlerts.lnk")
 $Shortcut.TargetPath = "$path"
 $Shortcut.Save()
+$WshShell = ""
+#>
 
 $Sysmon3 = wevtutil.exe qe Microsoft-Windows-Sysmon/Operational /q:"*[System[(EventID=3) and TimeCreated[timediff(@SystemTime) <= 369900]]]" | 
     ForEach-Object {$_ -replace '<', "`n"} | findstr /i "timecreated image" | 
@@ -41,10 +45,14 @@ $Sysmon3 = wevtutil.exe qe Microsoft-Windows-Sysmon/Operational /q:"*[System[(Ev
     Sort-Object | Get-Unique
 
 
+<#
+# OPTIONAL
+# minimize all windows to get your attention
 #$AuthNetTalkers = Get-Content "$path\AuthorizedNetworkTalkers.txt"
 $minWindows = New-Object -ComObject "Shell.Application"
 $minWindows.minimizeall()
 $minWindows = ""
+#>
 
 ForEach ($line in $Sysmon3)
 {
