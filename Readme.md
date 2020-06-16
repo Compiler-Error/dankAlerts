@@ -2,3 +2,8 @@ dankAlerts is powered by Sysmon and Memes.  Would you really notice if a suspici
 
 ![dankAlert](dankAlerts.jpg)
 
+Setup instructions
+- Install and configure Sysmon.
+There are several guides online. These are both solid guides.
+https://community.sophos.com/kb/en-us/134205
+https://www.blackhillsinfosec.com/getting-started-with-sysmon/
