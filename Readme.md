@@ -38,7 +38,7 @@ Be sure to modify dankAlerts.ps1 if you decide to use a different path.
 
 **Todo**
 Add more wevtutil.exe queries
-Add support WebCheck support for https://dankAlerts.local/Authorized-Programs.htm
+Add WebCheck support for https://dankAlerts.local/Authorized-Programs.htm
 
 Add support for Alerts from other systems sent via Base64encoded get requests to a python HTTPS enabled SimpleHTTPServer module. 
 This method is used to strickly limit write access between systems.
