@@ -2,8 +2,9 @@ dankAlerts is powered by Sysmon and Memes.  Would you really notice if a suspici
 
 ![dankAlert](dankAlerts.jpg)
 
-Setup instructions
-- Install and configure Sysmon.
+**Setup instructions**
+
+1- Install and configure Sysmon.
 
 There are several guides online. These are both solid guides.
 
@@ -11,11 +12,14 @@ https://community.sophos.com/kb/en-us/134205
 
 https://www.blackhillsinfosec.com/getting-started-with-sysmon/
 
-Awk for Windows is required.  
-**Google windows install awk to find the sourceforge.net download site**
+2- Install Awk for Windows  
+**Google -->windows install awk<-- to find the sourceforge.net download site**
 
 This is a very old version of awk for windows and it works perfectly for our needs.
 
-**This is a screenshot of the awk page that will take you to sourceforge**
+Screenshot of the awk page that will take you to sourceforge https://github.com/firstoctet/dankAlerts/blob/master/awk1.PNG
 
-![gnuAwkForWindows](awk1.PNG)
+3- If you don't want to use our pyinstaller exe file install the following
+  - python3 and pip
+  - pip install pillow
+  - pip install pyinstaller
