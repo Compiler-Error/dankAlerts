@@ -10,3 +10,12 @@ There are several guides online. These are both solid guides.
 https://community.sophos.com/kb/en-us/134205
 
 https://www.blackhillsinfosec.com/getting-started-with-sysmon/
+
+Awk for Windows is required.  
+**Google windows install awk to find the sourceforge.net download site**
+
+This is a very old version of awk for windows and it works perfectly for our needs.
+
+**This is a screenshot of the awk page that will take you to sourceforge**
+
+![gnuAwkForWindows](awk1.PNG)
