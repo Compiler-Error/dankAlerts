@@ -19,7 +19,8 @@ This is a very old version of awk for windows and it works perfectly for our nee
 
 Screenshot of the awk page that will take you to sourceforge https://github.com/firstoctet/dankAlerts/blob/master/awk1.PNG
 
-3- If you don't want to use our pyinstaller exe file install the following
+3- If you don't want to use our pyinstaller created exe file (dankAlertMemGenerator.exe) install the following
   - python3 and pip
   - pip install pillow
   - pip install pyinstaller
+  - Generate your own exe by running pyinstaller --onefile .\dankAlertMemGenerator.py
