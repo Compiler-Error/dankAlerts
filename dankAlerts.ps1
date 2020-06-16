@@ -81,9 +81,9 @@ ForEach ($line in $Sysmon3)
     If you trust this Program and don't want this alert, add the
     ProgramPathName value to the following file.
 
-    C:\Windows\dankAlerts\Authorized-Programs.txt
+    C:\Windows\dankAlerts\AuthorizedNetworkTalkers.txt
     or IF webCheck is enabled..
-    https://dankAlerts.local/Authorized-Programs.htm
+    https://dankAlerts.local/AuthorizedNetworkTalkers.htm
     **************************************************************************
      `""
     }
