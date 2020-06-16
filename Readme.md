@@ -24,3 +24,7 @@ Screenshot of the awk page that will take you to sourceforge https://github.com/
   - pip install pillow
   - pip install pyinstaller
   - Generate your own exe by running pyinstaller --onefile .\dankAlertMemGenerator.py
+
+4- Copy dankAlertMemGenerator.exe to C:\Windows\dankAlerts\
+
+Be sure to modify dankAlerts.ps1 if you decide to use a different path.
