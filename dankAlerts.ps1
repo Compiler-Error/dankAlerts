@@ -39,6 +39,10 @@ $Shortcut.Save()
 $WshShell = ""
 #>
 
+# Note Minutes, Seconds and Milliseconds are striped out in order to DRASTICALLY reduce the number of alerts.
+# No need to alert for the same event multiple times in 1 hour
+# See the awk line --> $1\":MM?:SS?\"
+
 $Sysmon3 = wevtutil.exe qe Microsoft-Windows-Sysmon/Operational /q:"*[System[(EventID=3) and TimeCreated[timediff(@SystemTime) <= 369900]]]" | 
     ForEach-Object {$_ -replace '<', "`n"} | findstr /i "timecreated image" | 
     awk -F ":" '{if ($0 ~ /TimeCreated/) {printf $1\":MM?:SS?\"} else {print \"~\",$0}}' | 
