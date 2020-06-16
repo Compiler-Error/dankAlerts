@@ -1,8 +1,11 @@
-**Alpha/Beta software**
+dankAlerts is a fun way to learn how your windows computers work and teach some basic security steps that an be used to be safer online.
+
 
 dankAlerts is powered by Sysmon and Memes.  Would you really notice if a suspicious process was recorded in the event log of your small or medium size network? Not likely. dankAlerts presents anomalies to you in text written into meme images and guides you in order to reduce false positives.  
 
 ![dankAlert](dankAlerts.jpg)
+
+Alpha/Beta software
 
 **Setup instructions**
 
