@@ -39,7 +39,7 @@ $Shortcut.Save()
 $WshShell = ""
 #>
 
-# Note Minutes, Seconds and Milliseconds are striped out in order to DRASTICALLY reduce the number of alerts.
+# Note Minutes, Seconds and Milliseconds are stripped out in order to DRASTICALLY reduce the number of alerts.
 # No need to alert for the same event multiple times in 1 hour
 # See the awk line --> $1\":MM?:SS?\"
 
