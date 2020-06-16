@@ -1,4 +1,4 @@
-dankAlerts is a fun way to learn how your windows computers work and teach some basic security steps that an be used to be safer online.
+dankAlerts is a fun way to learn about computer security, how Microsoft Windows programs events are logged, and how to use these logs to alert you of previously unknown behavior that may be suspicious.
 
 
 dankAlerts is powered by Sysmon and Memes.  Would you really notice if a suspicious process was recorded in the event log of your small or medium size network? Not likely. dankAlerts presents anomalies to you in text written into meme images and guides you in order to reduce false positives.  
