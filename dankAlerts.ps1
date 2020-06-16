@@ -52,12 +52,12 @@ $Sysmon3 = wevtutil.exe qe Microsoft-Windows-Sysmon/Operational /q:"*[System[(Ev
 <#
 # OPTIONAL
 # minimize all windows to get your attention
-#$AuthNetTalkers = Get-Content "$path\AuthorizedNetworkTalkers.txt"
 $minWindows = New-Object -ComObject "Shell.Application"
 $minWindows.minimizeall()
 $minWindows = ""
 #>
 
+#$AuthNetTalkers = Get-Content "$path\AuthorizedNetworkTalkers.txt"
 ForEach ($line in $Sysmon3)
 {
     $line = $line.Split("~")
