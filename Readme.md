@@ -1,3 +1,6 @@
+June 2020
+This is an actively supported project.  Please create an issue if you have any questions!
+
 dankAlerts is a fun way to learn about computer security, how Microsoft Windows program events are logged, and how to use these logs to alert you of previously unknown behavior that may be suspicious.
 
 
