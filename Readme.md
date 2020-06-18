@@ -54,4 +54,4 @@ Add more wevtutil.exe queries
 Add WebCheck support for https://dankAlerts.local/Authorized-Programs.htm
 
 Add support for Alerts from other systems sent via Base64encoded get requests to a python HTTPS enabled SimpleHTTPServer module. 
-This method is used to strickly limit write access between systems.
+This method is used to strictly limit write access between systems.
