@@ -15,6 +15,15 @@ text = sys.argv[2]
 draw.text((5, 5), text, font = font, align ="left")
 image.show()  
 
+# For some reason the windows jpg viewer goes blurry after a few minutes on Build 17234 rs4 / 180410-1804
+# This code can be used to open in chrome instead.
+# This needs to be fixed --> fileout = "C:\\Users\\username\\AppData\\Local\\Temp\\tmp93n_4vle.jpg"
+# image.save(fileout) 
+#import webbrowser
+#chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+#webbrowser.get(chrome_path).open(fileout)
+
+
 # EXAMPLE IMAGE
 # https://raw.githubusercontent.com/firstoctet/dankAlerts/master/dankAlerts.jpg
 
