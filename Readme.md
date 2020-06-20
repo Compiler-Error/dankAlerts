@@ -41,6 +41,8 @@ Be sure to modify dankAlerts.ps1 if you decide to use a different path.
 
 5- Run dankAlerts.ps1 as Administrator.  This is required to read the Sysmon event logs.
 
+![dankAlert](authnotepad.jpg)
+
 **FYI**
 
 Minutes, Seconds and Milliseconds are stripped out in order to DRASTICALLY reduce the number of alerts. No need to alert for the same event multiple times in 1 hour. Note the awk line --> $1\":MM?:SS?\" below
