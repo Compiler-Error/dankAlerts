@@ -54,7 +54,10 @@ ForEach-Object {$_ -replace '<', "`n"} | findstr /i "timecreated image" |
    Sort-Object | Get-Unique
 ```
 **Todo**
-Add more wevtutil.exe queries
+
+Add more wevtutil.exe queries  
+Add support for this! https://github.com/Neo23x0/sigma
+
 Add WebCheck support for https://dankAlerts.local/Authorized-Programs.htm
 
 Add support for Alerts from other systems sent via Base64encoded get requests to a python HTTPS enabled SimpleHTTPServer module. 
