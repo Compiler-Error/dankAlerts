@@ -13,20 +13,20 @@ If(!(test-path $path))
 # Storing in C:\Windows\dankAlerts to prevent modification by low priv evil doers.
 if (!(Test-Path "$path\AuthorizedProgramPathNames.txt"))
 {
-   New-Item  -ItemType File -Path $path -Confirm 
+   New-Item  -ItemType File -Path "$path\AuthorizedProgramPathNames.txt" -Confirm 
 }
 
 
 # Storing in C:\Windows\dankAlerts to prevent modification by low priv evil doers.
 if (!(Test-Path "$path\AuthorizedNetworkTalkers.txt"))
 {
-   New-Item  -ItemType File -Path $path -Confirm 
+   New-Item  -ItemType File -Path "$path\AuthorizedNetworkTalkers.txt" -Confirm 
 }
 
 # Storing in C:\Windows\dankAlerts to prevent modification by low priv evil doers.
 if (!(Test-Path "$path\AuthorizedNetworkTalkers.txt"))
 {
-   New-Item  -ItemType File -Path $path -Confirm 
+   New-Item  -ItemType File -Path "$path\AuthorizedNetworkTalkers.txt" -Confirm 
 }
 
 <#
